@@ -1,0 +1,28 @@
+body{
+    background-color: rgb(78, 78, 78);
+    color: white;
+}
+p{
+    font-size: 20px;
+}
+nav{
+    background-color: black;
+    padding: 8px;
+}
+.section1{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.section1>div {
+    display: flex;
+    justify-content: space-around;
+}
+.section1>div>div>img{
+    width: 500px;
+    border-radius: 500px;
+}
+.text_sec1{
+    margin-right: 5%;
+    text-align: justify;
+    margin-top: 4%;
+}
